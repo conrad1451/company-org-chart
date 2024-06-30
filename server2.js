@@ -2,7 +2,7 @@ const express = require("express");
 const moduleToFetch = require("./index");
 // const getDatabase = moduleToFetch.getDatabase;
 const newEntryToDatabase = moduleToFetch.newEntryToDatabase;
-const PORT = process.env.PORT || 8000;
+const PORT = process.env.PORT || 8010;
 
 const app = express();
 
