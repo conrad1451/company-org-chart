@@ -13,6 +13,7 @@ app.use(
   })
 );
 
+// CHQ: the endpoint of URL/users returns the database entries in JSON format
 app.get("/users", async (req, res) => {
   const users = await getDatabase();
   res.json(users);
