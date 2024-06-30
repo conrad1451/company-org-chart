@@ -2,7 +2,7 @@ const express = require("express");
 const moduleToFetch = require("./index");
 const getDatabase = moduleToFetch.getDatabase;
 const newEntryToDatabase = moduleToFetch.newEntryToDatabase;
-const port = 8000;
+const port = 3000;
 
 const app = express();
 
